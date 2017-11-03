@@ -1,0 +1,20 @@
+{
+  "name": "TDD, DDD & Teamwork",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joop Lammers",
+      "email": "joop@procurios.eu"
+    },
+    {
+      "name": "Pim Elshoff",
+      "email": "pim@procurios.eu"
+    }
+  ],
+  "require": {
+    "php": "^7",
+    "ramsey/uuid": "^3.7",
+    "phpunit/phpunit": "^5.6"
+  }
+}
