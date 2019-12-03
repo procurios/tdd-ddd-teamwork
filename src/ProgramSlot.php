@@ -16,12 +16,6 @@ final class ProgramSlot
     /** @var string */
     private $room;
 
-    /**
-     * @param DateTimeImmutable $start
-     * @param DateTimeImmutable $end
-     * @param string $title
-     * @param string $room
-     */
     public function __construct(DateTimeImmutable $start, DateTimeImmutable $end, string $title, string $room)
     {
         $this->start = $start;

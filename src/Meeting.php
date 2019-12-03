@@ -21,14 +21,6 @@ final class Meeting
     /** @var Program */
     private $program;
 
-    /**
-     * @param UuidInterface $meetingId
-     * @param string $title
-     * @param string $description
-     * @param DateTimeImmutable $start
-     * @param DateTimeImmutable $end
-     * @param Program $program
-     */
     public function __construct(
         UuidInterface $meetingId,
         string $title,

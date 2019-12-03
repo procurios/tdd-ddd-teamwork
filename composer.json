@@ -11,6 +11,9 @@
     "autoload": {
         "psr-4": {"Procurios\\Meeting\\": "src/"}
     },
+    "autoload-dev": {
+        "psr-4": {"Procurios\\Meeting\\Tests\\": "tests/"}
+    },
     "authors": [
         {
             "name": "Joop Lammerts",
